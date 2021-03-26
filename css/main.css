@@ -1,5 +1,6 @@
 body {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
+    color: #42404a;
 }
 
 ul, li, a {
@@ -9,16 +10,20 @@ ul, li, a {
 
 .profilePicture {
     border-radius: 50%;
-    width: 20%;
+    width: 45%;
     margin-top: 2rem;
+    position: relative;
+    top: 17rem;
 }
 
 a {
-    color: black;
+    color: #42404a;
 }
 
 header {
-    background-color: #CBF3F0;
+    background-color: rgba(240,244,247,255);
+    /* background-color: #f0f4f7; */
+    /* background-color: #CBF3F0; */
     margin-top: -1rem;
     margin-left: -1rem;
     margin-right: -1rem;
@@ -34,7 +39,45 @@ header {
 
 h1 {
     text-align: center;
-    color: white;
+    color: #42404a;
+    position: relative;
+    top: 17rem;
+}
+
+.subtitle {
+    max-width: 30rem;
+    text-align: center;
+    color: #42404a;
+    position: relative;
+    top: 17rem;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid orange; The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    /* @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+    } */
+
+.videoPosition {
+    display: flex;
+}
+
+.video {
+    width: 250rem;
 }
 
 ul {
@@ -50,9 +93,99 @@ li {
 .logo {
     border-radius: 50%;
     max-width: 5rem;
+    border: .5rem white solid;
+    padding: .5rem;
+    background-color: white;
+    margin: .2rem;
+}
+
+h4 {
+    text-align: center;
 }
 
 .groupProjects, .techBlock {
-    background-color: #CBF3F0;
+    /* background-color: #CBF3F0; */
+    background-color: #f0f4f7;
 }
 
+.containerLeft {
+    background-image: url("/images/Coffee_And_Coding.png");
+    background-repeat: no-repeat;
+    min-width: 50%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+.main {
+    display: flex;
+}
+
+.containerRight {
+    overflow: scroll;
+    max-height: 100rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
+}
+
+.about {
+    padding: 2rem;
+}
+
+.groupProjects {
+    padding: 2rem;
+}
+
+.soloProjects {
+    padding: 2rem;
+}
+
+.techBlock {
+    padding: 2rem;
+}
+
+.educationBlock {
+    padding: 2rem;
+}
+
+.techUsed {
+    display: flex;
+    justify-content: center;
+}
+
+.logoTechBlock {
+    width: 10rem;
+    height: 10rem;
+    border: .5rem white solid;
+    padding: .5rem;
+    background-color: white;
+}
+
+.techBlockLogos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.NSSEd, .UAEd {
+    display: flex;
+}
+
+.logoEdBlock {
+    width: 10rem;
+    height: 10rem;
+    padding-top: 2rem;
+}
+
+.NSSInfo, .UAInfo {
+    padding: 2rem;
+}
+
+.langUsed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoTitle {
+    text-align: center;
+    padding: .5rem;
+}
