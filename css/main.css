@@ -76,8 +76,25 @@ h1 {
     display: flex;
 }
 
-.video {
+iframe {
     width: 250rem;
+}
+
+.projectDescription {
+    padding: 0 0 2rem 2rem;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.holidayRoadSection {
+    padding: 2rem;
+}
+
+.videoPosition {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -158,11 +175,22 @@ h4 {
     border: .5rem white solid;
     padding: .5rem;
     background-color: white;
+    border-radius: 50%;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.techHeading, .edHeading {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .techBlockLogos {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem 0 2rem 0;
 }
 
 .NSSEd, .UAEd {
