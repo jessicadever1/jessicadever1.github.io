@@ -128,9 +128,25 @@ h4 {
 .containerLeft {
     background-image: url("/images/Coffee_And_Coding.png");
     background-repeat: no-repeat;
-    min-width: 50%;
+    /* min-width: 33%;
     margin-left: -1rem;
-    margin-top: -1rem;
+    margin-top: -1rem; */
+    padding: 6rem 3rem 3rem 3rem;
+    width: 30%;
+    height: 100%;
+    left: 0;
+    background-position: left 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #42404a;
+    background-attachment: scroll, scroll;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, 150%;
+    position: fixed;
+    text-align: right;
+    top: 0;
 }
 
 .main {
