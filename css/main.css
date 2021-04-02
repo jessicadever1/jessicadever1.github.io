@@ -7,7 +7,8 @@ ul, li, a {
     text-decoration: none;
     list-style: none;
     color: #42404a;
-    font-size: 1rem;
+    font-size: 1.75rem;
+    font-weight: bold;
 }
 
 ul {
@@ -69,11 +70,13 @@ h1 {
 
 h2 {
     font-size: 3rem;
+    font-weight: bold;
 }
 
 h3 {
     margin-top: 0;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 h4 {
@@ -140,11 +143,15 @@ iframe {
 }
 
 .projectDescription {
-    padding: 0 0 2rem 2rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.fAF {
+    padding-left: 2rem;
 }
 
 .holidayRoadSection, .nutshellSection {
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .videoPosition {
@@ -172,6 +179,7 @@ iframe {
 .techUsed {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .logoTechBlock {
