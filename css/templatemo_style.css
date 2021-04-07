@@ -11,6 +11,16 @@ body
 	position: relative;
 }
 
+#profilePicture {
+	border-radius: 100%;
+	width: 15rem;
+	/* height: 15rem; */
+	background-image: url(../images/jessProfilePic.png);
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+
 /* start templatemo page container */
 @media (min-width: 768px) {
 	.container { width: 700px; }
@@ -100,11 +110,16 @@ body
 	padding: 0;
 	zoom: 1;
 }
-.flexslider .slides img {
+.flexslider .slides img{
 	width: 100%;
 	min-width: 648px;
 	min-height: 270px;
 	display: block;
+}
+
+.flexslider .slides #profilePicture img {
+	border-radius: 100%;
+	width: 10rem;
 }
 .flexslider .slides > li {
 	display: none;  
@@ -138,6 +153,7 @@ body
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	flex-direction: column;
 }
 .templatemo-slider-btn
 {
@@ -485,7 +501,7 @@ footer .social_icon a:hover
 .subtitle {
     max-width: 30rem;
     text-align: center;
-    color: #42404a;
+    color: white;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     /* border-right: .15em solid orange; The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -499,3 +515,4 @@ footer .social_icon a:hover
     left: 12%; */
 }
 }
+
