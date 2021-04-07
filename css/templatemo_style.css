@@ -13,7 +13,7 @@ body
 
 #profilePicture {
 	border-radius: 100%;
-	width: 15rem;
+	width: 20rem;
 	/* height: 15rem; */
 	background-image: url(../images/jessProfilePic.png);
 	background-repeat: no-repeat;
@@ -110,7 +110,7 @@ body
 	padding: 0;
 	zoom: 1;
 }
-.flexslider .slides img{
+.flexslider .slides {
 	width: 100%;
 	min-width: 648px;
 	min-height: 270px;
