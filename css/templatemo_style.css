@@ -33,6 +33,7 @@ body
 .flexClass {
 	display: flex;
 	justify-content: center;
+	padding: 2rem 0 2rem 0;
 }
 
 .column {
