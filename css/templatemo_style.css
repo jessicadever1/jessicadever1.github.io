@@ -21,6 +21,58 @@ body
 	justify-content: center;
 }
 
+.logo {
+    border-radius: 50%;
+    max-width: 5rem;
+    border: .5rem white solid;
+    padding: .5rem;
+    background-color: white;
+    margin: .2rem;
+}
+
+.flexClass {
+	display: flex;
+	justify-content: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.projectsTitle {
+	text-align: center;
+}
+
+.projectTitleDiv {
+	display: flex;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+.space {
+	height: 3rem;
+}
+
+.projectImg {
+	width: 50%;
+	padding-right: 2rem;
+}
+
+.ps {
+	padding-left: 2rem;
+}
+
+.postS {
+	padding-right: 2rem;
+}
+
+.HRImg {
+	width: 50%;
+	padding-left: 2rem;
+}
+
 /* start templatemo page container */
 @media (min-width: 768px) {
 	.container { width: 700px; }
