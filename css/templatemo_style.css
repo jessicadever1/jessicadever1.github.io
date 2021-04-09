@@ -33,7 +33,7 @@ body
 .flexClass {
 	display: flex;
 	justify-content: center;
-	padding: 2rem 0 2rem 0;
+	padding: 6rem 0 2rem 0;
 }
 
 .column {
@@ -76,6 +76,11 @@ body
 
 .projects {
 	padding: 2rem 0 4rem 0;
+}
+
+#aboutSection {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 
 /* start templatemo page container */
