@@ -41,15 +41,20 @@ body
 	flex-direction: column;
 }
 
+#projects {
+	background-color: #F9F9F9;
+}
+
 .projectsTitle {
 	text-align: center;
 }
 
 .projectTitleDiv {
-	display: flex;
+	/* display: flex;
     justify-content: center;
     padding: 2rem;
-    width: 100%;
+    width: 100%; */
+	text-align: center;
 }
 
 .space {
@@ -78,9 +83,37 @@ body
 	padding: 2rem 0 4rem 0;
 }
 
-#aboutSection {
+#aboutSection, #edSection, #projects {
 	padding-top: 6rem;
 	padding-bottom: 6rem;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.edPic {
+	width: 25%;
+	height: 25%;
+}
+
+#edBlock {
+	width: 50%;
+}
+
+.educationTitle {
+	text-align: center;
+}
+
+.edRow {
+	display: flex;
+}
+
+.treehouse {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 100%;
+	padding-bottom: .2rem;
 }
 
 /* start templatemo page container */
@@ -241,7 +274,7 @@ body
 /* start templatemo features */
 .features
 {
-	background: #F9F9F9;
+	
 	border-bottom: 1px solid #f0f0f0;
 	padding: 60px 0 60px 0;
 }
@@ -355,6 +388,7 @@ body
 {
 	text-align: center;
 	padding: 60px 0 100px 0;
+	background: #F9F9F9;
 }
 #portfolio h2
 {
