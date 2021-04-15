@@ -41,6 +41,14 @@ body
 	flex-direction: column;
 }
 
+.projectInfo {
+	display: flex;
+}
+
+.paddingLeft {
+	padding-left: .5rem;
+}
+
 #projects {
 	background-color: #F9F9F9;
 }
