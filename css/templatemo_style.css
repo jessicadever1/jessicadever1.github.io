@@ -36,6 +36,16 @@ body
 	padding: 6rem 0 2rem 0;
 }
 
+.a {
+	display: flex;
+	flex-direction: column;
+}
+
+.b {
+	display: flex;
+	padding: 2rem 0 2rem 0;
+}
+
 .column {
 	display: flex;
 	flex-direction: column;
@@ -70,7 +80,7 @@ body
 }
 
 .projectImg {
-	width: 50%;
+	width: 100%;
 	padding-right: 2rem;
 }
 
