@@ -9,14 +9,19 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	position: relative;
+	background-color: #FFF;
 }
 
 #profilePicture {
 	border-radius: 100%;
 	width: 20rem;
-	/* height: 15rem; */
 	background-image: url(../images/jessProfilePic.png);
 	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+
+.profileCenter {
 	display: flex;
 	justify-content: center;
 }
