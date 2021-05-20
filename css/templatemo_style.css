@@ -51,6 +51,10 @@ body
 	padding: 2rem 0 2rem 0;
 }
 
+#mh {
+	min-height: 10rem;
+}
+
 .column {
 	display: flex;
 	flex-direction: column;
