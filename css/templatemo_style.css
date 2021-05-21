@@ -55,6 +55,9 @@ body
 	min-height: 10rem;
 }
 
+#maxh {
+	max-width: 75%;
+}
 .column {
 	display: flex;
 	flex-direction: column;
